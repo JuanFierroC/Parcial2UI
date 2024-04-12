@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Logo1{
+width: 150px;
+height: 50px;
+padding-left: 50px ;
+padding-top: 0px;
+}
+
+#menu{
+    position:fixed;
+    width: 100%;
+    padding: 0px  ;
+    height: 50px;
+    background-color: #A9CF97;
+}
+
+#menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-style: italic;
+    list-style-type: none;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.menuu{
+    padding-top: 10px;
+}
+
+.Infoo{
+    float:left;
+}
+
+.Userr{
+    float:left;
+}
+.Bannerr{
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+
+main{
+    background-color: #E1F5D8;
+}
+
+.Principal p{
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    padding-left: 15%;
+    display: inline-block;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.Rectangulos{
+display: flex;
+justify-content: space-between;
+}
+
+.rectangulo {
+    width: 200px; /* Ancho del rectángulo */
+    height: 30px; /* Altura del rectángulo */
+    background-color: white; /* Color de fondo del rectángulo */
+    border: 1px solid #000; /* Borde del rectángulo (2 píxeles de grosor, color negro) */
+    border-radius: 20px;
+  }
+
+.Check {
+    width: 30px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    border: 1px solid #000; /* Borde del botón */
+    position: relative; /* Para posicionar el pseudo-elemento */
+    background-color: white; /* Color de fondo transparente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+
+.Ubi{
+    display: inline-block;
+    font-family: 'Paytone One', sans-serif;
+    padding-left: 10px;
+}
+
+.Boton{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: bold;
+}
+
+.Boton:active{
+background-color: #A9CF97;
+}
+
+.Segunda p{
+    margin-left: 50px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: bold;
+}
+.Imagenes1{
+    display: flex;
+}
+
+.Imagenes2{
+    display: flex;
+}
+
+.Imagen{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.fondo{
+    position:fixed;
+    width: 100%;
+    padding: 0;
+    background-color: #A9CF97;
+    height: 100px;
+}
+
+.foot{
+    padding-top: 40px;
+}
+
+.Logo2{
+width: 100px;
+height: 100px;
+}
+
+.fondo ul{
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    padding-left: 8%;
+    display: inline-block;
+    font-family: 'Paytone One', sans-serif;
+    list-style-type: none;
+    display: flex;
+}
